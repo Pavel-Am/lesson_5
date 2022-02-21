@@ -1,0 +1,230 @@
+@import "reset.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Pacifico&display=swap");
+
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Russo One";
+   src: url("../fonts/RussoOne-Regular.woff2") format("woff2"), url("../fonts/RussoOne-Regular.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+body {
+   font-family: "Russo One";
+}
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+
+.header-img {
+   margin-bottom: 15px;
+}
+
+.title-main {
+   font-family: "Russo One";
+   font-size: 50px;
+   width: 100%;
+   text-align: center;
+   margin: 0 0 25px auto;
+   text-shadow: 7px 5px 4px red;
+}
+
+.main-photo {
+   max-width: 275px;
+   margin: 0 20px 25px 10px;
+}
+
+.nav {
+   display: inline-block;
+   width: 200px;
+   font-family: "Russo One";
+   margin: 0 0 0 auto;
+}
+
+.nav p {
+   text-transform: uppercase;
+   margin-bottom: 10px;
+   color: red;
+}
+.nav > ol > li {
+   color: green;
+}
+
+li {
+   margin-bottom: 5px;
+}
+
+h2 {
+   font-family: "Rubik", sans-serif;
+   font-size: 30px;
+   text-decoration: underline;
+   margin: 0 0 25px 30px;
+   text-shadow: 10px 5px 5px #5ecc15;
+}
+
+p {
+   margin-bottom: 25px;
+}
+
+.block-biography {
+   max-width: 350px;
+   font-size: 18px;
+   line-height: 1.5;
+   text-align: justify;
+   color: brown;
+   padding: 5px;
+   margin: 0 0 15px 10px;
+}
+
+.block-childhood {
+   max-height: 250px;
+   font-size: 20px;
+   line-height: 1.6;
+   overflow: auto;
+   color: rgb(54, 86, 231);
+   padding: 5px;
+   margin: 0 0 15px 10px;
+}
+
+.img-pedagogy {
+   min-width: 49%;
+}
+
+.block-pedagogy {
+   display: inline-block;
+   max-height: 640px;
+   max-width: 49%;
+   font-size: 25px;
+   line-height: 1.6;
+   overflow: auto;
+   color: #9f20da;
+   padding: 5px;
+   margin: 0 0 15px auto;
+   text-shadow: 7px 5px 5px #360a4b;
+}
+
+.personal-life {
+   display: inline-block;
+   /*max-height: 700px;*/
+   max-width: 49%;
+   font-size: 23px;
+   line-height: 1.175;
+   color: #cc7818;
+   padding: 5px;
+   margin: 0 10px 15px 10px;
+}
+
+.img-life {
+   max-width: 49%;
+   margin-bottom: 25px;
+}
+
+.block-death {
+   max-width: 50%;
+   font-size: 21px;
+   line-height: 1.19;
+   text-align: justify;
+   color: #2208b9;
+   margin: 0 auto 15px;
+}
+
+#death,
+#quotes {
+   max-width: 100px;
+   padding: 0;
+   margin: 0 auto 50px;
+}
+
+.block-bibliography {
+   font-size: 20px;
+   color: #b94a4a;
+   margin: 0 0 25px 5px;
+}
+
+.block-quotes {
+   margin-bottom: 15px;
+}
+
+.text-quote {
+   display: inline-block;
+   font-family: "Pacifico", cursive;
+   height: 230px;
+   width: 300px;
+   line-height: 2;
+   overflow: auto;
+   padding: 10px;
+   margin: 0 50px 0 0;
+}
+
+[class*="-img"] {
+   width: 100%;
+   height: 150px;
+}
+
+/*===========================Figma===========================*/
+
+.container {
+   width: 810px;
+   margin: 0 auto;
+}
+
+.main {
+   font-family: "Lato";
+}
+
+.title {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 1.3;
+   margin-bottom: 92px;
+   color: #1e212c;
+}
+
+.img-title {
+   max-width: 810px;
+   margin-bottom: 60px;
+}
+
+.text-bold {
+   margin-bottom: 24px;
+}
+
+.ident-bold {
+   margin: 0 0 48px 58px;
+}
+
+.regular-text {
+   margin-bottom: 48px;
+}
+
+.regular-block p {
+   margin-bottom: 24px;
+}
+
+.regular-block {
+   font-weight: 400;
+   line-height: 1.6;
+   color: #424551;
+}
+
+.list {
+   margin: 0 0 24px 32px;
+}
+
+[class*="-bold"] {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.5;
+   color: #1e212c;
+}
